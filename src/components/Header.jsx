@@ -20,7 +20,7 @@ const Heading = ()=>{
          <li className="px-2"><Link to="/contact">Contact</Link></li>
          <li className="px-2"><Link to="/instamart">Instamart</Link></li>
      </ul> 
-     <ul className="flex items-center">
+     <ul className="flex items-center ">
         <li className="px-2">Cart-{cartItems.length} items</li>
      </ul>
      </div>
