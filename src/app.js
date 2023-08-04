@@ -23,7 +23,6 @@ const AppLayout = ()=>{
         <Provider store = {store}>
         <Heading/>
         <Outlet/>
-        
         </Provider>
     );
 }
