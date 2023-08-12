@@ -12,11 +12,9 @@ const RestaurantMenu = ()=> {
 
     const {id} = useParams();
     const restaurant = useRestaurant(id);
-    const dispatch = useDispatch();
+    
 
-    const addFoodItem = (item)=>{
-        dispatch(addItem(item));
-    }
+    
     var foodItems = [];
     var titles = [];
     restaurant?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards.map((resItem,index)=>{
